@@ -4,47 +4,47 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇱 IL 01 - xiaohe
+- name: 🇩🇰 DK 01 - xiaohe
   type: vless
-  server: 185.253.75.119
+  server: 188.114.97.6
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /?TELEGRAM-TOOTFFARANGI
     headers:
-      Host: ccc.010304.xyz
-- name: 🇮🇱 IL 02 - xiaohe
+      Host: lucasjow.us.ci
+- name: 🇩🇰 DK 02 - xiaohe
   type: vless
-  server: 185.253.75.119
+  server: 188.114.97.6
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /?Telegram---mehrosaboran
     headers:
-      Host: ccc.010304.xyz
+      Host: lucasjow.us.ci
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇱 IL 01 - xiaohe
-  - 🇮🇱 IL 02 - xiaohe
+  - 🇩🇰 DK 01 - xiaohe
+  - 🇩🇰 DK 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇱 IL 01 - xiaohe
-  - 🇮🇱 IL 02 - xiaohe
+  - 🇩🇰 DK 01 - xiaohe
+  - 🇩🇰 DK 02 - xiaohe
 rules:
 - MATCH,PROXIES
