@@ -63,7 +63,7 @@ proxies:
   ws-opts:
     path: /arki
     headers:
-      Host: ''
+      Host: 47.244.120.197
 proxy-groups:
 - name: PROXIES
   type: select
