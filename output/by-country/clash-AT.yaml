@@ -26,6 +26,13 @@ proxies:
     headers:
       Host: fs.qicai99.com
 - name: 🇦🇹 AT 03 - xiaohe
+  type: ss
+  server: 152.53.1.57
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
+  udp: true
+- name: 🇦🇹 AT 04 - xiaohe
   type: vmess
   server: 154.47.19.225
   port: 1270
@@ -36,13 +43,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: ''
-- name: 🇦🇹 AT 04 - xiaohe
-  type: ss
-  server: 152.53.1.57
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
-  udp: true
 - name: 🇦🇹 AT 05 - xiaohe
   type: ss
   server: 82.110.60.9
